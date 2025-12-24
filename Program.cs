@@ -1,4 +1,4 @@
-﻿using Tabuleiro;
+﻿using TabuleiroModel;
 
 namespace ChessGame
 {
@@ -6,9 +6,10 @@ namespace ChessGame
     {
         static void Main(string[] args)
         {
-            Posicao p = new Posicao(3, 4);
+            Tabuleiro tabuleiro = new Tabuleiro(8, 8);
 
-            Console.WriteLine("Posição " + p);
+            Tela.ImprimirTabuleiro(tabuleiro);
+            Console.ReadLine();
         }
 
     }

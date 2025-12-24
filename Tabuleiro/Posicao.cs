@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Tabuleiro
+namespace TabuleiroModel
 {
     public class Posicao(int linha, int coluna)
     {

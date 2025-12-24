@@ -1,4 +1,4 @@
-namespace Tabuleiro
+namespace TabuleiroModel
 {
     public class Peca(Posicao posicao, Tabuleiro tabuleiro, Cor cor)
     {
