@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using TabuleiroModel;
 
-namespace ChessGame.Xadrex
+namespace Xadrex
 {
     public class PosicaoXadrez(char coluna, int linha)
     {
