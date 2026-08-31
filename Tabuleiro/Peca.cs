@@ -1,6 +1,6 @@
 namespace TabuleiroModel
 {
-    public class Peca(Tabuleiro tabuleiro, Cor cor)
+    public abstract class Peca(Tabuleiro tabuleiro, Cor cor)
     {
         public Posicao? Posicao { get; set; } = null;
         public Cor Cor { get; protected set; } = cor;
@@ -11,5 +11,7 @@ namespace TabuleiroModel
         {
             QteMovimentos++;
         }
+
+        public abstract bool[,] MovimentosPossiveis();
     }
 }
