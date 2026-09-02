@@ -26,6 +26,7 @@ namespace ChessGame
 
                         bool[,] posicoesPossivel = partida.Tab.Peca(origem).MovimentosPossiveis();
                         Console.Clear();
+                        Console.WriteLine();
                         Tela.ImprimirTabuleiro(partida.Tab, posicoesPossivel);
 
                         Console.WriteLine();

@@ -13,7 +13,7 @@ namespace Xadrex
         private bool ExisteInimigo(Posicao pos)
         {
             Peca p = tab.Peca(pos);
-            return p != null || p.Cor != cor;
+            return p != null && p.Cor != cor;
         }
 
         private bool Livre(Posicao pos)

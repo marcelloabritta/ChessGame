@@ -7,6 +7,7 @@ namespace ChessGame
     {
         public static void ImprimirPartida(PartidaDeXadrez partida)
         {
+            Console.WriteLine();
             ImprimirTabuleiro(partida.Tab);
             Console.WriteLine();
             ImprimirPecasCapturadas(partida);
